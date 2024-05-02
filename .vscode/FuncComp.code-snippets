@@ -1,7 +1,7 @@
 {
 	"Functional Component": {
 
-		"prefix": "CompFunc",
+		"prefix": "compFunc",
 		"body": [
 			"import React from 'react'; ",
 			"import { Text } from 'react-native';",

@@ -7,6 +7,7 @@ import Family from "./components/relationship/Family";
 import Member from "./components/relationship/Member";
 import LoggedUser from "./components/LoggedUser";
 import Button from "./components/Button";
+import Counter from "./components/counter";
 
 export default class App extends Component {
   render(){
@@ -21,7 +22,8 @@ export default class App extends Component {
           <Member name="Julia" surname="Silva" name2="Ana" surname2="Clara" />
         </Family>*/}
         {/* <LoggedUser user={ {"nome":"teste" , email:"teste@teste.com"} }/> */}
-        <Button />
+        {/* <Button /> */}
+        <Counter />
       </View>
     );
 
